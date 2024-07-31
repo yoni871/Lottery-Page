@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(237, 237, 241);
+}
+#screen-header{
+    background-color: rgb(16, 16, 16);
+   
+}
+
+.signup-button{
+    float: right;
+    height: 80px;
+}
+
+.signup-button a{
+    margin-top: 25px;
+    background-color: rgb(61, 88, 73);
+    color: rgb(174, 170, 170);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-style: double;
+    
+}
+
+.signup-button :hover{
+    color: rgb(16, 239, 164);
+}
+
+.form{
+    max-width: 480px;
+    margin: auto;
+}
+
+input[type="email"]{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+input[type="password"]{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0px;
+}
+
+.header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .buy-ticket-btn {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+
+  .lottery-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
